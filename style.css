@@ -1,0 +1,16 @@
+.grid { /*use this dot . to tell the style sheet we're looking for a class called grid*/
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+} 
+
+.grid div { /*we format all div elements inside class grid*/
+    height: 20px;
+    width: 20px;
+}
+
+.tetromino {
+    background-color: burlywood;
+}
